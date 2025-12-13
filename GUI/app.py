@@ -86,14 +86,14 @@ class App(tk.Tk):
 
         ttk.Button(
             bottom_frame, 
-            text="📋 Open Logs", 
+            text="Open Logs", 
             style="Action.TButton", 
             command=self._open_logs
         ).grid(row=0, column=0, sticky="ew", pady=2)
 
         ttk.Button(
             bottom_frame, 
-            text="💾 Export Logs", 
+            text="Export Logs", 
             style="Action.TButton", 
             command=self._export_logs
         ).grid(row=1, column=0, sticky="ew", pady=2)
@@ -106,10 +106,10 @@ class App(tk.Tk):
             return False
         resp = self.backend.send(f"ROUTE {start} {end} 0")
         if resp == "OK":
-            messagebox.showinfo("Success", f"✅ Normal vehicle added: {start} → {end}")
+            messagebox.showinfo("Success", f"Normal vehicle added: {start} → {end}")
             return True
         else:
-            messagebox.showerror("Error", "❌ Could not add vehicle. No valid route.")
+            messagebox.showerror("Error", "Could not add vehicle. No valid route.")
             return False
 
     def _add_emergency(self, start, end, vtype):
@@ -118,10 +118,10 @@ class App(tk.Tk):
             return False
         resp = self.backend.send(f"ROUTE {start} {end} 1")
         if resp == "OK":
-            messagebox.showinfo("Success", f"🚨 Emergency vehicle added: {start} → {end}")
+            messagebox.showinfo("Success", f"Emergency vehicle added: {start} → {end}")
             return True
         else:
-            messagebox.showerror("Error", "❌ Could not add emergency vehicle.")
+            messagebox.showerror("Error", "Could not add emergency vehicle.")
             return False
 
     def _incident(self):
@@ -132,17 +132,17 @@ class App(tk.Tk):
                 "A random road has been blocked.\n"
                 "Active vehicles will reroute automatically.")
         else:
-            messagebox.showerror("Error", "❌ Could not create incident.")
+            messagebox.showerror("Error", "Could not create incident.")
 
     def _clear_incidents(self):
         resp = self.backend.send("CLEAR")
         if resp == "OK":
             messagebox.showinfo("Incidents Cleared", 
-                "✅ All incidents cleared!\n\n"
+                "All incidents cleared!\n\n"
                 "All roads are now accessible.\n"
                 "Vehicles will recalculate optimal routes.")
         else:
-            messagebox.showerror("Error", "❌ Could not clear incidents.")
+            messagebox.showerror("Error", "Could not clear incidents.")
 
     def _reset(self):
         result = messagebox.askyesno("Reset Simulation", 
@@ -156,7 +156,7 @@ class App(tk.Tk):
         if result:
             resp = self.backend.send("RESET")
             if resp == "OK":
-                messagebox.showinfo("Reset Complete", "✅ Simulation reset to initial state.")
+                messagebox.showinfo("Reset Complete", "Simulation reset to initial state.")
 
     def _set_signal(self, node, green):
         resp = self.backend.send(f"SET_SIGNAL {node} {1 if green else 0}")
@@ -167,7 +167,7 @@ class App(tk.Tk):
         resp = self.backend.send(f"{cmd} {a} {b}")
         if resp == "OK":
             action = "blocked" if on else "unblocked"
-            messagebox.showinfo("Road Control", f"✅ Road {a} ↔ {b} {action}.")
+            messagebox.showinfo("Road Control", f"Road {a} ↔ {b} {action}.")
             return True
         return False
 
@@ -176,7 +176,7 @@ class App(tk.Tk):
         resp = self.backend.send(f"{cmd} {a} {b}")
         if resp == "OK":
             action = "enabled" if on else "disabled"
-            messagebox.showinfo("Maintenance", f"✅ Maintenance {action}: {a} ↔ {b}")
+            messagebox.showinfo("Maintenance", f"Maintenance {action}: {a} ↔ {b}")
             return True
         return False
 
@@ -184,10 +184,10 @@ class App(tk.Tk):
         ok = self.backend.save_snapshot_file(path)
         if ok:
             messagebox.showinfo("Snapshot Saved", 
-                f"✅ Saved to: {path}\n\n"
+                f"Saved to: {path}\n\n"
                 "Includes: vehicles, roads, incidents, signals")
         else:
-            messagebox.showerror("Save Failed", "❌ Could not save snapshot.")
+            messagebox.showerror("Save Failed", "Could not save snapshot.")
         return ok
 
     def _load_snapshot(self, path):
@@ -200,10 +200,10 @@ class App(tk.Tk):
         ok = self.backend.load_snapshot_file(path)
         if ok:
             messagebox.showinfo("Snapshot Loaded",
-                f"✅ Loaded from: {path}\n\n"
+                f"Loaded from: {path}\n\n"
                 "Restored: vehicles, incidents, signals")
         else:
-            messagebox.showerror("Load Failed", "❌ Invalid snapshot file.")
+            messagebox.showerror("Load Failed", "Invalid snapshot file.")
         return ok
 
     def _open_logs(self):
@@ -230,9 +230,9 @@ class App(tk.Tk):
         
         ok = self.backend.export_logs(dest)
         if ok:
-            messagebox.showinfo("Logs Exported", f"✅ Exported to: {dest}")
+            messagebox.showinfo("Logs Exported", f"Exported to: {dest}")
         else:
-            messagebox.showerror("Export Failed", "❌ Could not export logs.")
+            messagebox.showerror("Export Failed", "Could not export logs.")
 
     def _tick(self):
         try:
