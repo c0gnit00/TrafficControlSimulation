@@ -1,0 +1,16 @@
+# --- Virtual Environment (Anchored to Root) ---
+/.venv/
+
+# --- Python Artifacts (Globstar: anywhere in the repo) ---
+**/__pycache__/
+*.pyc
+
+# --- C++ Build Artifacts (Specific Folders) ---
+/CPPBackend/.vs/
+/CPPBackend/x64/
+/CPPBackend/CPPBackend/x64/
+
+# --- Logs, Binaries, and Temporary Files (General) ---
+*.tlog
+*.log
+*.exe

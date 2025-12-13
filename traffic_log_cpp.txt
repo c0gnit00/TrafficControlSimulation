@@ -1,0 +1,144 @@
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=1 emergency=0 routes=1 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Incident on edge A-D
+vehicles=1 emergency=0 routes=1 incidents=1 distance=22
+
+=== Log @ 1.76555e+09 ===
+Incident on edge F-E
+vehicles=1 emergency=0 routes=1 incidents=2 distance=22
+
+=== Log @ 1.76555e+09 ===
+Cleared incidents
+vehicles=1 emergency=0 routes=1 incidents=2 distance=22
+
+=== Log @ 1.76555e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for E
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for E
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual block on A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual block off A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Maintenance on A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Maintenance off A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Maintenance on A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=1 emergency=0 routes=1 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=2 emergency=0 routes=2 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=3 emergency=0 routes=3 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for A
+vehicles=3 emergency=0 routes=3 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Incident on edge O-P
+vehicles=3 emergency=0 routes=3 incidents=1 distance=30
+
+=== Log @ 1.76555e+09 ===
+Incident on edge E-F
+vehicles=3 emergency=0 routes=3 incidents=2 distance=30
+
+=== Log @ 1.76555e+09 ===
+Incident on edge I-H
+vehicles=3 emergency=0 routes=3 incidents=3 distance=30
+
+=== Log @ 1.76555e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Reset simulation
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual signal set for A
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Manual block on A-B
+vehicles=0 emergency=0 routes=0 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Added vehicle
+vehicles=1 emergency=1 routes=1 incidents=0 distance=0
+
+=== Log @ 1.76556e+09 ===
+Added vehicle
+vehicles=2 emergency=2 routes=2 incidents=0 distance=43
+

@@ -1,0 +1,8 @@
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=1 emergency=0 routes=1 incidents=0 distance=0
+
+=== Log @ 1.76555e+09 ===
+Added vehicle
+vehicles=2 emergency=1 routes=2 incidents=0 distance=28
+
